@@ -1,0 +1,30 @@
+#!/bin/bash   
+echo -e "#!/bin/bash \npwd" >> 0-current_working_directory                                                                                                                                  
+
+echo -e "#!/bin/bash \nls" >> 1-listit
+
+echo -e "#!/bin/bash \ncd" >> 2-bring_me_home
+
+echo -e "#!/bin/bash \nls -l" >> 3-listfiles
+
+echo -e "#!/bin/bash \nls -la" >> 4-listmorefiles
+
+echo -e "#!/bin/bash \nls -la -n" >> 5-listfilesdigitonly
+
+echo -e "#!/bin/bash \nmkdir -p /tmp/holberton" >>  6-firstdirectory
+
+echo -e "#!/bin/bash \nmv ~/tmp/betty /tmp/holberton" >> 7-movethatfile
+
+echo -e "#!/bin/bash \nrm ~/tmp/holberton/betty" >>  8-firstdelete
+
+echo -e "#!/bin/bash \nrmdir -p /tmp/holberton" >>  9-firstdirdeletion
+
+echo -e "#!/bin/bash \cd-" >> 10-back
+
+echo -e "#!/bin/bash \nls -laR" >> 11-lists
+
+echo -e "#!/bin/bash \nfile ~tmp/iamafile" >> 12-file_type
+
+echo -e "#!/bin/bash \nln -s /bin/ls _ls_" >> 13-symbolic_link
+
+echo -e "#!/bin/bash \ncp -n *.html /root/alx-system_engineering-devops" >> 14-copy_html
