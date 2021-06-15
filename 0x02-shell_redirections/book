@@ -1,0 +1,20 @@
+#!/bin/bash   
+echo -e "#!/bin/bash \necho -e '\U1F615'" >> 1-confused_smiley
+                                                                                                                                  
+echo -e "#!/bin/bash \ncat /etc/passwd" >> 2-hellofile
+
+echo -e "#!/bin/bash \ncat /etc/passwd /etc/hosts" >> 3-twofiles
+
+echo -e "#!/bin/bash \ntail /etc/passwd" >> 4-lastlines
+
+echo -e "#!/bin/bash \nhead /etc/passwd" >> 5-firstlines
+
+echo -e "#!/bin/bash \nawk 'NR==3' iacta" >> 6-third_line
+
+echo -e "#!/bin/bash \ntouch \\\*\\\\\'\"Holberton School\"\\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\) | echo "Holberton School" >> \\\*\\\\\'\"Holberton School\"\\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\) " >> 7-file 
+
+echo -e "#!/bin/bash \nls -la >> ls_cwd_content" >> 8-cwd_state
+
+echo -e "#!/bin/bash \ntail -n 1 iacta >> iacta" >> 9-duplicate_last_line
+
+echo -e "#!/bin/bash \nrmdir -p /tmp/holberton" >>  9-firstdirdeletion
