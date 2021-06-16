@@ -19,7 +19,7 @@ echo -e "#!/bin/bash \ngrep ^[a-z] -i /etc/ssh/sshd_config" >> 18-letteronly
 
 echo -e "#!/bin/bash \nperl -pie "s/a/z/g"; "s/c/e/g" >> 19-AZ
 
-echo -e "#!/bin/bash \ntr -d 'cC'" >> 20-hiago
+echo -e "#!/bin/bash \ntr -d 'cC' " >> 20-hiago
 
 echo -e "#!/bin/bash \nrev" >> 21-reverse
 
